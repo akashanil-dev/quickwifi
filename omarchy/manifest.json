@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "akash.quickwifi",
+  "name": "Quick Wi-Fi",
+  "version": "1.0.0",
+  "author": "Akash",
+  "description": "Open the fast, event-driven Quick Wi-Fi connection picker",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "Widget.qml" },
+  "omarchy": { "clonedFrom": "omarchy.network" },
+  "barWidget": {
+    "displayName": "Quick Wi-Fi",
+    "category": "Network",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
